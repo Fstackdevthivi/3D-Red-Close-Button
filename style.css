@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #fbe0e0;
+}
+
+.button {
+  color: #ecf0f1;
+  font-size: 30px;
+  background-color: #e62222;
+  border: 1px solid #f31212;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 6px 0px #d30000;
+  transition: all 0.1s;
+  padding: 0 9px;
+}
+
+button:hover {
+  color: #fbdede;
+  box-shadow: 0px 4px 0px #d30000;
+  transform: translateY(2px);
+}
+
+.button:active {
+  box-shadow: 0px 2px 0px #d30000;
+  transform: translateY(4px);
+}
